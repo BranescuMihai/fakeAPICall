@@ -9,5 +9,48 @@
     "oAuth": "ok",
     "lang": "en",
     "success": true
-  }
+  },
+  "getCases": {
+        "size": "3",
+        "casesList": [
+            {
+                "id": 1,
+                "name": "Case1",
+                "description": "A case",
+                "settlement": 10000,
+                "settlementCurrency": "EUR",
+                "hasFunding": false,
+                "premiumType": "yes",
+                "postedTS": "long",
+                "acceptedOfferTS": "long",
+                "postedOnInvestmentTS": "long"
+            },
+            {
+                "id": 2,
+                "name": "Case2",
+                "description": "A case",
+                "settlement": 10000,
+                "settlementCurrency": "EUR",
+                "hasFunding": false,
+                "premiumType": "yes",
+                "postedTS": "long",
+                "acceptedOfferTS": "long",
+                "postedOnInvestmentTS": "long"
+            },
+            {
+                "id": 3,
+                "name": "Case3",
+                "description": "A case",
+                "settlement": 10000,
+                "settlementCurrency": "EUR",
+                "hasFunding": false,
+                "premiumType": "yes",
+                "postedTS": "long",
+                "acceptedOfferTS": "long",
+                "postedOnInvestmentTS": "long"
+            }
+        ],
+        "success": "boolean",
+        "error": "string"
+    }
 }
